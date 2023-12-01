@@ -164,7 +164,7 @@ figcaption {
     font-weight: bold;
 }
 
-input[type="submit"] {
+.contactSection form input[type="submit"] {
     color: #FFFFFF;
     background-color: #007D7B;
     font-size: 1em;
@@ -172,4 +172,5 @@ input[type="submit"] {
     border: none;
     border-radius: 10px;
     font-weight: bold;
+    width: 60%;
 }
