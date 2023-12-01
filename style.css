@@ -98,6 +98,7 @@ h2 {
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .about h2, p {
@@ -140,6 +141,7 @@ figcaption {
     margin-left: 10px;
     margin-top: 10px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .contactSection form label {
@@ -149,6 +151,8 @@ figcaption {
     margin-left: 10px;
     margin-bottom: 5px;
     color: #FFFFFF;
+    text-transform: uppercase;
+
 }
 
 .contactSection form input {
@@ -156,7 +160,7 @@ figcaption {
     padding: 5px;
     font-size: 1em;
     margin-bottom: 15px;
-
+    text-transform: uppercase;
 }
 
 .contactSection form input::placeholder {
@@ -173,4 +177,54 @@ figcaption {
     border-radius: 10px;
     font-weight: bold;
     width: 60%;
+}
+
+/* footer */
+
+footer {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* medium screen*/
+@media screen and (min-width: 880px){
+    nav ul {
+        justify-content: center;
+    }
+
+    body {
+        display: grid;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form {
+        position: relative;
+    }
+}
+
+
+/* large screen*/
+@media screen and (min-width: 1300px){
+    nav ul {
+        justify-content: right;
+    }
+
+    body {
+        display: grid;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    form {
+        position: relative;
+    }
 }
