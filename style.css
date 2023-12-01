@@ -107,13 +107,13 @@ h2 {
 
 /* main - gallery */
 .gallery {
-    margin: auto;
+    margin: 10px;
     width: max-content;
 }
 
 img {
     display: block;
-    margin: auto;
+    margin: 5px;
 }
 
 figcaption {
@@ -196,6 +196,7 @@ footer {
 
     body {
         display: grid;
+        grid-template-columns: 1fr;
     }
 
     .gallery {
@@ -217,6 +218,7 @@ footer {
 
     body {
         display: grid;
+        grid-template-columns: 1fr;
     }
 
     .gallery {
