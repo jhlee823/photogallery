@@ -196,7 +196,6 @@ footer {
 
     body {
         display: grid;
-        grid-template-columns: 1fr;
     }
 
     .gallery {
