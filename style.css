@@ -113,12 +113,14 @@ h2 {
     justify-content: center;
 }
 
-img {
-    margin: 5px;
-}
-
 figure {
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin: 5px;
 }
 
 figcaption {
@@ -126,6 +128,7 @@ figcaption {
     font-size: 1em;
     text-align: center;
     text-transform: uppercase;
+    width: 100%;
 }
 
 .whiteTop {
