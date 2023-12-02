@@ -111,7 +111,10 @@ h2 {
     margin: 10px;
     width: max-content;
     justify-content: center;
-    justify-items: center;
+}
+
+img {
+    margin: 5px;
 }
 
 figure {
@@ -121,7 +124,7 @@ figure {
 figcaption {
     position: absolute;
     font-size: 1em;
-    text-align:center;
+    text-align: center;
     text-transform: uppercase;
 }
 
