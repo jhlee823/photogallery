@@ -107,18 +107,42 @@ h2 {
 
 /* main - gallery */
 .gallery {
+    display: grid;
     margin: 10px;
     width: max-content;
+    justify-content: center;
+    justify-items: center;
 }
 
-img {
-    display: block;
-    margin: 5px;
+figure {
+    position: relative;
 }
 
 figcaption {
+    position: absolute;
     font-size: 1em;
-    text-align: center;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.whiteTop {
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.whiteBottom {
+    color: #FFFFFF;
+    bottom: 10px;
+}
+
+.blackTop {
+    color: #000000;
+    top: 10px;
+}
+
+.blackBottom {
+    color: #000000;
+    bottom: 10px;
 }
 
 /* contact */
@@ -187,6 +211,7 @@ footer {
     text-transform: uppercase;
 }
 
+
 /* small screen*/
 @media screen and (min-width: 485px){
     nav {
@@ -225,6 +250,8 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: auto;
+        justify-content: space-evenly;
+
     }
 
     form {
@@ -249,6 +276,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         width: auto;
+        justify-content: space-evenly;
     }
 
     form {
