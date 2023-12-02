@@ -121,7 +121,8 @@ figure {
 }
 
 img {
-    margin: 5px;
+    margin: 2px;
+    width: max-content;
 }
 
 figcaption {
