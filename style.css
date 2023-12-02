@@ -187,10 +187,33 @@ footer {
     text-transform: uppercase;
 }
 
+/* small screen*/
+@media screen and (min-width: 485px){
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+    form {
+        position: relative;
+    }
+}
 
 /* medium screen*/
 @media screen and (min-width: 880px){
-    nav ul {
+    nav {
+        display: flex;
         justify-content: center;
     }
 
@@ -202,6 +225,7 @@ footer {
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: auto;
     }
 
     form {
@@ -212,7 +236,8 @@ footer {
 
 /* large screen*/
 @media screen and (min-width: 1300px){
-    nav ul {
+    nav {
+        display: flex;
         justify-content: right;
     }
 
@@ -224,6 +249,7 @@ footer {
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        width: auto;
     }
 
     form {
