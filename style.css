@@ -116,6 +116,7 @@ h2 {
 figure {
     position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
